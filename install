@@ -1,0 +1,17 @@
+#!/bin/sh
+
+if ! [ -x "$(command -v node)" ]; then
+    printf "\033[1;31mERROR\033[0m node.js not found"
+    exit 1
+else if ! [ -x "$(command -v npm)" ]; then
+    printf "\033[1;31mERROR\033[0m NPM not found"
+    exit 1
+else
+    if ! [ - x "$(command -v yarn)" ]; then
+        npm i
+        npm start
+    else
+        yarn install
+        yarn start
+    fi
+fi
