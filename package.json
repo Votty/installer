@@ -1,0 +1,14 @@
+{
+  "name": "votty-installer",
+  "version": "1.0.0",
+  "description": "An installer for Votty peernode",
+  "main": "vi.js",
+  "repository": "https://github.com/Votty/installer.git",
+  "author": "Votty <support@votty.net>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "colors": "^1.3.2",
+    "node-gyp": "^3.8.0"
+  }
+}

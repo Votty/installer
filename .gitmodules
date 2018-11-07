@@ -1,0 +1,6 @@
+[submodule "peer"]
+	path = peer
+	url = https://github.com/Votty/peer
+[submodule "nginx"]
+	path = nginx
+	url = https://github.com/Votty/nginx
